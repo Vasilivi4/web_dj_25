@@ -1,9 +1,9 @@
-from django import forms
+from django.contrib.auth.models import User
 from django.utils.encoding import force_str
 from .models import Author, Quote
-
 from django import forms
-from django.contrib.auth.models import User
+from django import forms
+
 
 class AuthorForm(forms.ModelForm):
     class Meta:
