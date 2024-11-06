@@ -1,5 +1,4 @@
 from django.db import models
-#import uuid
 
 class Author(models.Model):
     fullname = models.CharField(max_length=255)
